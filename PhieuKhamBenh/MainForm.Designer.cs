@@ -17,9 +17,6 @@ namespace PhieuKhamBenh
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.RichTextBox richTextBox1;
 		private System.Windows.Forms.RichTextBox richTextBox2;
 		private System.Windows.Forms.RichTextBox richTextBox3;
