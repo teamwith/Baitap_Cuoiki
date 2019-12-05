@@ -33,7 +33,7 @@ namespace PhieuKhamBenh
         public bool Fun_ConnectDB(string userName, string password)
         {
             fail[0] = "Fail";
-            string connectionString = @"server=DESKTOP-RIDTRAN; database=Kham_benh; user id=sa; password=123";
+            string connectionString = @"server=DESKTOP-19EPU5O\SQLEXPRESS; database=Kham_benh; user id=sa; password=123";
             conn.ConnectionString = connectionString;
             conn.Open();
             StringConnectDB_SQL = String.Copy(connectionString);
@@ -60,7 +60,7 @@ namespace PhieuKhamBenh
 
         public object Fun_ConnectDB()
         {
-            string connectionString = @"server=DESKTOP-RIDTRAN; database=Kham_benh; user id=sa; password=123";
+            string connectionString = @"server=DESKTOP-19EPU5O\SQLEXPRESS; database=Kham_benh; user id=sa; password=123";
             conn.ConnectionString = connectionString;
             conn.Open();
             return conn;
@@ -74,7 +74,7 @@ namespace PhieuKhamBenh
 
         public bool Fun_Register(string sFisrtName, string sLastName, string sStreet, string sPhone, string sUser, string sPass, string sEmail, string sNote, bool bAdmin)
         {
-            string connectionString = @"server=DESKTOP-RIDTRAN; database=Kham_benh; user id=sa; password=123";
+            string connectionString = @"server=DESKTOP-19EPU5O\SQLEXPRESS; database=Kham_benh; user id=sa; password=123";
             conn.ConnectionString = connectionString;
             //       conn.Open();
             StringConnectDB_SQL = String.Copy(connectionString);
@@ -101,7 +101,7 @@ namespace PhieuKhamBenh
         }
         public DataTable getalluser()
         {
-            string chuoiconnect = @"server=DESKTOP-RIDTRAN; database=Kham_benh; user id=sa; password=123";
+            string chuoiconnect = @"server=DESKTOP-19EPU5O\SQLEXPRESS; database=Kham_benh; user id=sa; password=123";
             conn.ConnectionString = chuoiconnect;
             conn.Open();
 

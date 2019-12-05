@@ -10,6 +10,9 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Data;
+using System.Data.Sql;
 
 namespace PhieuKhamBenh
 {
@@ -18,13 +21,12 @@ namespace PhieuKhamBenh
 	/// </summary>
 	public partial class MainForm : Form
 	{
-		public MainForm()
+		public  MainForm()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
 			//
 			InitializeComponent();
-			
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
@@ -81,6 +83,12 @@ namespace PhieuKhamBenh
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            if (kiemtra())
+            {
+                Insert_Bacsy();
+                MessageBox.Show("Insert Thành Công","Chúc mừng", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
             MessageBox.Show("Chưa có in được nha!");
         }
 
@@ -105,20 +113,11 @@ namespace PhieuKhamBenh
         private void RadioButton6_CheckedChanged(object sender, EventArgs e)
         {
 
-        }
-
-     
-
-        
+        }  
         private void BtnNhaplai_Click(object sender, EventArgs e)
         {
            
-          
-         
-            
-
-
-
+   
         }
 
         private void RichTextBox11_TextChanged(object sender, EventArgs e)
@@ -132,6 +131,30 @@ namespace PhieuKhamBenh
         }
 
         private void Label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+                    }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
         }
