@@ -22,7 +22,7 @@ namespace PhieuKhamBenh
         public SqlDataAdapter da = null;
         public string[] x = new string[2];
         public string[] fail = new string[1];
-        private SqlCommand sqlCommand;
+      //  private SqlCommand sqlCommand;
 
 
         public ConnectDB_SQL()
@@ -35,7 +35,7 @@ namespace PhieuKhamBenh
             fail[0] = "Fail";
             string connectionString = @"server=DESKTOP-RIDTRAN; database=Kham_benh; user id=sa; password=123";
             conn.ConnectionString = connectionString;
-            conn.Open();
+           conn.Open();
             StringConnectDB_SQL = String.Copy(connectionString);
 
             string query = "select id, isadmin from tai_khoan where user1='" + userName + "' and password1='" + password + "'";
@@ -72,52 +72,42 @@ namespace PhieuKhamBenh
             conn.Dispose();
         }
 
-        public bool Fun_Register(string sFisrtName, string sLastName, string sStreet, string sPhone, string sUser, string sPass, string sEmail, string sNote, bool bAdmin)
+        public string[] z = new string[2];
+
+        public bool Fun_Register(string sFullName,  string sUser, string sPass,  bool bAdmin, bool bnam, bool bnu)
         {
             string connectionString = @"server=DESKTOP-RIDTRAN; database=Kham_benh; user id=sa; password=123";
             conn.ConnectionString = connectionString;
-            //       conn.Open();
+            conn.Open();
             StringConnectDB_SQL = String.Copy(connectionString);
-            string query = "select id from tai_khoan where user1='" + sUser + "'";
+
+            string query = "select user1, password1 from tai_khoan where user1='" + sUser + "'";
             SQLcommand = new SqlCommand(query, conn);
             SqlDataReader reader = SQLcommand.ExecuteReader();
-            if (reader != null)
+            while (reader.Read())
+            {
+                z[0] = reader.GetValue(0).ToString();
+                z[1] = reader.GetValue(1).ToString();
+
+            }
+            if (z[0] != null)
             {
                 conn.Close();
                 return false;
             }
             else
             {
-                query = "INSERT INTO tai_khoan (fname, lname, street1, phone, login, password, email, note, isadmin) VALUES ('" + sFisrtName + "','" + sLastName + "','" + sStreet + "','" + sPhone + "','" + sUser + "','" + sPass + "','" + sEmail + "','" + sNote + "','" + bAdmin + "')";
+                conn.Close();
+                conn.Open();
+               query = "INSERT INTO tai_khoan (fullname, user1, password1, isadmin, nam, nu) VALUES ('" + sFullName + "','" + sUser + "','" + sPass + "','" + bAdmin + "','" + bnam + "','" + bnu + "')";
                 SQLcommand = new SqlCommand(query, conn);
                 SQLcommand.ExecuteNonQuery();
                 conn.Close();
                 return true;
             }
-
-
-
-
         }
-        public DataTable getalluser()
-        {
-            string chuoiconnect = @"server=DESKTOP-RIDTRAN; database=Kham_benh; user id=sa; password=123";
-            conn.ConnectionString = chuoiconnect;
-            conn.Open();
+       
 
 
-            string sql = "SELECT * FROM Item";
-            //b2: tạo kết nối đến sql //
-            sqlCommand = new SqlCommand(sql, conn);
-            //truyền câu truy vấn vào sqladapter//
-            da = new SqlDataAdapter(sql, conn);
-            //mo ket noi//
-            // mở dữ liệu từ sqlcommand vào datatable
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            // dong kết nối//
-            conn.Close();
-            return dt;
-        }
     }
 }

@@ -19,8 +19,8 @@ namespace PhieuKhamBenh
         private void BtnTaophieumoi_Click(object sender, EventArgs e)
         {
             this.Hide();
-            PhieuKhamBenh pkb = new PhieuKhamBenh();
-            pkb.Show();
+            MainForm mf = new MainForm();
+            mf.Show();
         }
     }
 }

@@ -54,3 +54,15 @@ D:\Baitap_Cuoiki\PhieuKhamBenh\obj\Debug\PhieuKhamBenh.MainForm.resources
 D:\Baitap_Cuoiki\PhieuKhamBenh\obj\Debug\PhieuKhamBenh.csproj.GenerateResource.cache
 D:\Baitap_Cuoiki\PhieuKhamBenh\obj\Debug\PhieuKhamBenh.exe
 D:\Baitap_Cuoiki\PhieuKhamBenh\obj\Debug\PhieuKhamBenh.pdb
+D:\Git_Hub\Baitap_Cuoiki\PhieuKhamBenh\obj\Debug\PhieuKhamBenh.csprojAssemblyReference.cache
+D:\Git_Hub\Baitap_Cuoiki\PhieuKhamBenh\obj\Debug\PhieuKhamBenh.exe
+D:\Git_Hub\Baitap_Cuoiki\PhieuKhamBenh\obj\Debug\PhieuKhamBenh.pdb
+D:\Git_Hub\Baitap_Cuoiki\PhieuKhamBenh\obj\Debug\PhieuKhamBenh.Login.resources
+D:\Git_Hub\Baitap_Cuoiki\PhieuKhamBenh\obj\Debug\PhieuKhamBenh.MainForm.resources
+D:\Git_Hub\Baitap_Cuoiki\PhieuKhamBenh\obj\Debug\PhieuKhamBenh.csproj.GenerateResource.cache
+D:\Git_Hub\Baitap_Cuoiki\PhieuKhamBenh\obj\Debug\PhieuKhamBenh.csproj.CoreCompileInputs.cache
+D:\Git_Hub\Baitap_Cuoiki\PhieuKhamBenh\obj\Debug\PhieuKhamBenh.Add.resources
+D:\Git_Hub\Baitap_Cuoiki\PhieuKhamBenh\obj\Debug\PhieuKhamBenh.Thaotac.resources
+D:\Git_Hub\Baitap_Cuoiki\PhieuKhamBenh\bin\Debug\PhieuKhamBenh.exe.config
+D:\Git_Hub\Baitap_Cuoiki\PhieuKhamBenh\bin\Debug\PhieuKhamBenh.exe
+D:\Git_Hub\Baitap_Cuoiki\PhieuKhamBenh\bin\Debug\PhieuKhamBenh.pdb
