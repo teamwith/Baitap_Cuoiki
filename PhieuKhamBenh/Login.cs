@@ -29,8 +29,9 @@ namespace PhieuKhamBenh
             {
                 MessageBox.Show("Đăng nhập thành công!✔ ");
                 this.Hide();
-                MainForm mf = new MainForm();
-                mf.Show();
+                Thaotac tt = new Thaotac();
+                tt.Show();
+
             }
             else
             {
@@ -64,8 +65,8 @@ namespace PhieuKhamBenh
         private void BtnDangky_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Dangky dk = new Dangky();
-            dk.Show();
+            Add ad = new Add();
+            ad.Show();
 
 
 

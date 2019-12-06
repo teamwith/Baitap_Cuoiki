@@ -62,7 +62,7 @@ namespace PhieuKhamBenh
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.Buttoninvaluu = new System.Windows.Forms.Button();
             this.btnNhaplai = new System.Windows.Forms.Button();
-            this.btnHuy = new System.Windows.Forms.Button();
+            this.btnQuaylai = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -242,8 +242,9 @@ namespace PhieuKhamBenh
             this.btnNhaplai.UseVisualStyleBackColor = true;
             this.btnNhaplai.Click += new System.EventHandler(this.BtnNhaplai_Click);
             // 
-            // btnHuy
+            // btnQuaylai
             // 
+<<<<<<< HEAD
             this.btnHuy.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold);
             this.btnHuy.ForeColor = System.Drawing.Color.Red;
             this.btnHuy.Location = new System.Drawing.Point(684, 537);
@@ -253,6 +254,16 @@ namespace PhieuKhamBenh
             this.btnHuy.Text = "Hủy";
             this.btnHuy.UseVisualStyleBackColor = true;
             this.btnHuy.Click += new System.EventHandler(this.BtnHuy_Click);
+=======
+            this.btnQuaylai.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuaylai.Location = new System.Drawing.Point(577, 537);
+            this.btnQuaylai.Name = "btnQuaylai";
+            this.btnQuaylai.Size = new System.Drawing.Size(151, 44);
+            this.btnQuaylai.TabIndex = 3;
+            this.btnQuaylai.Text = "Quay lại";
+            this.btnQuaylai.UseVisualStyleBackColor = true;
+            this.btnQuaylai.Click += new System.EventHandler(this.BtnHuy_Click);
+>>>>>>> c5feb430e40381dfdf78ed07189a6e2581dc21c3
             // 
             // label7
             // 
@@ -565,7 +576,7 @@ namespace PhieuKhamBenh
             this.ControlBox = false;
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.btnHuy);
+            this.Controls.Add(this.btnQuaylai);
             this.Controls.Add(this.btnNhaplai);
             this.Controls.Add(this.Buttoninvaluu);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -583,7 +594,7 @@ namespace PhieuKhamBenh
 
         private System.Windows.Forms.Button Buttoninvaluu;
         private System.Windows.Forms.Button btnNhaplai;
-        private System.Windows.Forms.Button btnHuy;
+        private System.Windows.Forms.Button btnQuaylai;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;

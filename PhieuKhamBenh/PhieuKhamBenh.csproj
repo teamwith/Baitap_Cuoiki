@@ -50,18 +50,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="clsBacsy.cs">
       <SubType>Form</SubType>
     </Compile>
+=======
+    <Compile Include="add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add.designer.cs">
+      <DependentUpon>add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsBacSi.cs" />
+>>>>>>> c5feb430e40381dfdf78ed07189a6e2581dc21c3
     <Compile Include="clsBenhNhan.cs" />
     <Compile Include="clsTrieuTrung.cs" />
     <Compile Include="ConnectDB_SQL.cs" />
-    <Compile Include="Dangky.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Dangky.Designer.cs">
-      <DependentUpon>Dangky.cs</DependentUpon>
-    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,18 +80,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+=======
+    <Compile Include="Thaotac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thaotac.Designer.cs">
+      <DependentUpon>Thaotac.cs</DependentUpon>
+>>>>>>> c5feb430e40381dfdf78ed07189a6e2581dc21c3
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Dangky.resx">
-      <DependentUpon>Dangky.cs</DependentUpon>
+    <EmbeddedResource Include="add.resx">
+      <DependentUpon>add.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -95,9 +107,14 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.Designer.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+=======
+    <EmbeddedResource Include="Thaotac.resx">
+      <DependentUpon>Thaotac.cs</DependentUpon>
+>>>>>>> c5feb430e40381dfdf78ed07189a6e2581dc21c3
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

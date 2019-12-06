@@ -94,7 +94,9 @@ namespace PhieuKhamBenh
 
         private void BtnHuy_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
+            Thaotac tt = new Thaotac();
+            tt.Show();
         }
 
         private void RadiobtnNam_CheckedChanged(object sender, EventArgs e)

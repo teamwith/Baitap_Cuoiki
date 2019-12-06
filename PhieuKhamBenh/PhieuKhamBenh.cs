@@ -9,16 +9,11 @@ using System.Windows.Forms;
 
 namespace PhieuKhamBenh
 {
-    public partial class Dangky : Form
+    public partial class PhieuKhamBenh : Form
     {
-        public Dangky()
+        public PhieuKhamBenh()
         {
             InitializeComponent();
-        }
-
-        private void Dangky_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
