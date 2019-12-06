@@ -7,8 +7,12 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Data;
+using System.Data.Sql;
 namespace PhieuKhamBenh
 {
     /// <summary>
@@ -20,9 +24,10 @@ namespace PhieuKhamBenh
         private SqlConnection conn = null;
         private SqlCommand SQLcommand = null;
         public SqlDataAdapter da = null;
+        public SqlDataReader reader = null;
         public string[] x = new string[2];
         public string[] fail = new string[1];
-      //  private SqlCommand sqlCommand;
+        //  private SqlCommand sqlCommand;
 
 
         public ConnectDB_SQL()
@@ -35,7 +40,7 @@ namespace PhieuKhamBenh
             fail[0] = "Fail";
             string connectionString = @"server=DESKTOP-19EPU5O\SQLEXPRESS; database=Kham_benh; user id=sa; password=123";
             conn.ConnectionString = connectionString;
-           conn.Open();
+            conn.Open();
             StringConnectDB_SQL = String.Copy(connectionString);
 
             string query = "select id, isadmin from tai_khoan where user1='" + userName + "' and password1='" + password + "'";
@@ -74,7 +79,7 @@ namespace PhieuKhamBenh
 
         public string[] z = new string[2];
 
-        public bool Fun_Register(string sFullName,  string sUser, string sPass,  bool bAdmin, bool bnam, bool bnu)
+        public bool Fun_Register(string sFullName, string sUser, string sPass, bool bAdmin, bool bnam, bool bnu)
         {
             string connectionString = @"server=DESKTOP-19EPU5O\SQLEXPRESS; database=Kham_benh; user id=sa; password=123";
             conn.ConnectionString = connectionString;
@@ -99,23 +104,20 @@ namespace PhieuKhamBenh
             {
                 conn.Close();
                 conn.Open();
-               query = "INSERT INTO tai_khoan (fullname, user1, password1, isadmin, nam, nu) VALUES ('" + sFullName + "','" + sUser + "','" + sPass + "','" + bAdmin + "','" + bnam + "','" + bnu + "')";
+                query = "INSERT INTO tai_khoan (fullname, user1, password1, isadmin, nam, nu) VALUES ('" + sFullName + "','" + sUser + "','" + sPass + "','" + bAdmin + "','" + bnam + "','" + bnu + "')";
                 SQLcommand = new SqlCommand(query, conn);
                 SQLcommand.ExecuteNonQuery();
                 conn.Close();
                 return true;
             }
         }
-<<<<<<< HEAD
-        public DataTable getalluser()
+        /*
+        public DataTable Getalluser ()
         {
             string chuoiconnect = @"server=DESKTOP-19EPU5O\SQLEXPRESS; database=Kham_benh; user id=sa; password=123";
             conn.ConnectionString = chuoiconnect;
             conn.Open();
-=======
-       
->>>>>>> c5feb430e40381dfdf78ed07189a6e2581dc21c3
-
-
+        }
+        */
     }
 }

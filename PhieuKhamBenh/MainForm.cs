@@ -92,7 +92,7 @@ namespace PhieuKhamBenh
             MessageBox.Show("Chưa có in được nha!");
         }
 
-        private void BtnHuy_Click(object sender, EventArgs e)
+        private void btnHuy_Click(object sender, EventArgs e)
         {
             this.Hide();
             Thaotac tt = new Thaotac();

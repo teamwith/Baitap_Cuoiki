@@ -1,0 +1,17 @@
+C:\Users\Acer\source\repos\BT_Cuoiki\BT_Cuoiki\bin\Debug\netcoreapp3.0\BT_Cuoiki.exe
+C:\Users\Acer\source\repos\BT_Cuoiki\BT_Cuoiki\bin\Debug\netcoreapp3.0\BT_Cuoiki.deps.json
+C:\Users\Acer\source\repos\BT_Cuoiki\BT_Cuoiki\bin\Debug\netcoreapp3.0\BT_Cuoiki.runtimeconfig.json
+C:\Users\Acer\source\repos\BT_Cuoiki\BT_Cuoiki\bin\Debug\netcoreapp3.0\BT_Cuoiki.runtimeconfig.dev.json
+C:\Users\Acer\source\repos\BT_Cuoiki\BT_Cuoiki\bin\Debug\netcoreapp3.0\BT_Cuoiki.dll
+C:\Users\Acer\source\repos\BT_Cuoiki\BT_Cuoiki\bin\Debug\netcoreapp3.0\BT_Cuoiki.pdb
+C:\Users\Acer\source\repos\BT_Cuoiki\BT_Cuoiki\obj\Debug\netcoreapp3.0\BT_Cuoiki.csprojAssemblyReference.cache
+C:\Users\Acer\source\repos\BT_Cuoiki\BT_Cuoiki\obj\Debug\netcoreapp3.0\BT_Cuoiki.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\BT_Cuoiki\BT_Cuoiki\obj\Debug\netcoreapp3.0\BT_Cuoiki.AssemblyInfo.cs
+C:\Users\Acer\source\repos\BT_Cuoiki\BT_Cuoiki\obj\Debug\netcoreapp3.0\BT_Cuoiki.dll
+C:\Users\Acer\source\repos\BT_Cuoiki\BT_Cuoiki\obj\Debug\netcoreapp3.0\BT_Cuoiki.pdb
+C:\Users\Acer\source\repos\BT_Cuoiki\BT_Cuoiki\obj\Debug\netcoreapp3.0\PhieuKhamBenh.Add.resources
+C:\Users\Acer\source\repos\BT_Cuoiki\BT_Cuoiki\obj\Debug\netcoreapp3.0\PhieuKhamBenh.Login.resources
+C:\Users\Acer\source\repos\BT_Cuoiki\BT_Cuoiki\obj\Debug\netcoreapp3.0\PhieuKhamBenh.MainForm.resources
+C:\Users\Acer\source\repos\BT_Cuoiki\BT_Cuoiki\obj\Debug\netcoreapp3.0\PhieuKhamBenh.Thaotac.resources
+C:\Users\Acer\source\repos\BT_Cuoiki\BT_Cuoiki\obj\Debug\netcoreapp3.0\BT_Cuoiki.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\BT_Cuoiki\BT_Cuoiki\obj\Debug\netcoreapp3.0\BT_Cuoiki.Properties.Resources.resources

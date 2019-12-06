@@ -243,18 +243,16 @@ namespace PhieuKhamBenh
             this.btnNhaplai.Click += new System.EventHandler(this.BtnNhaplai_Click);
             // 
             // btnQuaylai
-            // 
-<<<<<<< HEAD
-            this.btnHuy.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold);
-            this.btnHuy.ForeColor = System.Drawing.Color.Red;
-            this.btnHuy.Location = new System.Drawing.Point(684, 537);
-            this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(151, 44);
-            this.btnHuy.TabIndex = 3;
-            this.btnHuy.Text = "Hủy";
-            this.btnHuy.UseVisualStyleBackColor = true;
-            this.btnHuy.Click += new System.EventHandler(this.BtnHuy_Click);
-=======
+            //
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold);
+            this.ForeColor = System.Drawing.Color.Red;
+            this.Location = new System.Drawing.Point(684, 537);
+            this.Name = "tnHuy";
+            this.Size = new System.Drawing.Size(151, 44);
+            this.TabIndex = 3;
+            this.Text = "Hủy";
+           // this.UseVisualStyleBackColor = true;
+            this.Click += new System.EventHandler(this.btnHuy_Click);
             this.btnQuaylai.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuaylai.Location = new System.Drawing.Point(577, 537);
             this.btnQuaylai.Name = "btnQuaylai";
@@ -262,8 +260,8 @@ namespace PhieuKhamBenh
             this.btnQuaylai.TabIndex = 3;
             this.btnQuaylai.Text = "Quay lại";
             this.btnQuaylai.UseVisualStyleBackColor = true;
-            this.btnQuaylai.Click += new System.EventHandler(this.BtnHuy_Click);
->>>>>>> c5feb430e40381dfdf78ed07189a6e2581dc21c3
+            this.btnQuaylai.Click += new System.EventHandler(this.btnHuy_Click);
+
             // 
             // label7
             // 
